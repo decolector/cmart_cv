@@ -1,0 +1,197 @@
+%Camilo Martinez CV
+%
+%Uses moderncv package
+%
+%To avoid problems make sure the texlive-fonts texlive-latexextra packages are installed
+%
+%ChangeLog
+%	2.11.08	Version inicial
+%       3.5.09 update
+%	29.06.11 update al 2011
+% 28.03.2012 update
+
+\documentclass[10pt,letter]{moderncv}
+\moderncvtheme[grey]{casual}                 
+
+% character encoding
+\usepackage[utf8]{inputenc}   
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}						% if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Camilo}
+\familyname{Mart\'{i}nez}
+\title{Artist}
+\address{San Jose 382 piso 2. Buenos Aires, Argentina}{1076}    
+\phone{(54) 1539007432}                     
+\email{cmart@decolector.net}                     
+\extrainfo{http://martinez-zea.info} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                         % '64pt' is the height the picture must be resized to and 'picture' is the name of the 
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+% the ConTeXt symbol
+\def\ConTeXt{%
+  C%
+  \kern-.0333emo%
+  \kern-.0333emn%
+  \kern-.0667em\TeX%
+  \kern-.0333emt}
+
+% slanted small caps (only with roman family; the sans serif font doesn't exists :-()
+%\usepackage{slantsc}
+%\DeclareFontFamily{T1}{myfont}{}
+%\DeclareFontShape{T1}{myfont}{m}{scsl}{ <-> cork-lmssqbo8}{}
+%\usefont{T1}{myfont}{m}{scsl}Testing the font
+
+% command and color used in this document, independently from moderncv 
+\definecolor{see}{rgb}{0.0,0.5,0.5}% for web links
+\newcommand{\up}[1]{\ensuremath{^\textrm{\scriptsize#1}}}% for text subscripts
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\maketitle
+
+%%% Educacion
+\section{Educai\'{o}n}
+\cventry{1997--2002}{Maestro en Artes con \'{E}nfasis en Arte y Nuevas Tecnolog\'{i}as}{Universidad Nacional de Colombia}{Bogot\'{a}}{}{} 
+%%%Expos
+%%Solo
+\section{Exposiciones Individuales}
+\cventry{2009}{Clap}{Centro Colombo Americano}{Bogot\'{a}}{}{}
+\cventry{2008}{El Polarizador}{Galer\'{i}a laLocalidad}{Bogot\'{a}}{}{} 
+\cventry{2007}{Proyecto BereBere}{Alianza Francesa}{Medell\'{i}n}{}{} 
+\cventry{2004}{Por que no alcanzar el \'{e}xito y la felicidad?}{Alianza Colombo Francesa}{Bogot\'{a}}{}{}
+\cventry{2003}{Si observa movimientos extra\~{n}os}{Galer\'{i}a Valenzuela y Klenner}{Bogot\'{a}}{}{}
+\cventry{2003}{Abundancia de Escazes}{Galer\'{i}a de Arte Fenalco}{Bogot\'{a}}{}{}
+\cventry{1999}{De Tragedias y otros artificios}{Fundaci\'{o}n Gilberto Alzate Avenda\~{n}o}{Bogot\'{a}}{}{}
+
+%%Group
+\section{Exposiciones Grupales}
+% 2013
+\cventry{2013}{Open Score}{Contemporary Art Museum, University of South Florida}{Tampa}{USA}{}
+% 2012
+\cventry{2012}{Sonantes}{Escuela superior de artes de Bogot\'{a}}{Bogot\'{a}}{Colombia}{}{}
+\cventry{2012}{Estarter \#3}{Common Room}{Bandung}{Indonesia}{}{}
+\cventry{2012}{Entornos ficcionales para realidades complejas}{Centro de arte contempor\'{a}neo de Quito}{Quito}{Ecuador}{}{}
+\cventry{2012}{Open Score}{XI Bienal de la Habana}{La Habana}{Cuba}{}{}
+% 2011
+\cventry{2011}{Festival TransitioMX}{Afecciones Colaterales}{Ciudad de M\'{e}xico}{M\'{e}xico}{}{}
+\cventry{2011}{Fax}{South London Gallery}{London}{U.K}{}{}
+\cventry{2011}{Multiplicidades}{Museo Estaci\'{o}n Belgrano}{Santa Fe}{Argentina}{}{}
+\cventry{2011}{Paisaje h\'{i}brido / h\'{a}bitat modular}{Centro Cultural Recoleta}{Buenos Aires}{Argentina}{}{}
+\cventry{2011}{Game on}{Galer\'{i}a Objeto A}{Buenos Aires}{Argentina}{}{}
+% 2010
+\cventry{2010}{Interactivos?}{Espacio Centoequatro}{Belo Horizonte}{Brasil}{}{}
+\cventry{2010}{CCEBA MediaLAB proyectos 2008-2010}{Colaboraci\'{o}n con Leonello Zambon}{CCEBA Balcarce}{Buenos Aires}{}{}
+\cventry{2010}{Arte Camara}{ARTBO: Feria Internacional de Arte de Bogot\'{a}}{Bogot\'{a}}{}{}{}
+\cventry{2010}{Entre pontos}{JA.CA}{Jardim Canada centro de Arte y Tecnolog\'{i}a}{Belo Horizonte}{Brasil}{}
+% 2008
+\cventry{2009}{Bienal ASAB, Altas, Medias y Bajas Tecnolog\'{i}as}{Escuela Superior de Arte de Bogot\'{a}}{Bogot\'{a}}{Colombia}{}{}
+\cventry{2008}{41 Sal\'{o}n Nacional de Artistas}{Cali}{Colombia}{}{}
+\cventry{2008}{Cartagena Film Festival. BereBere project Visualizations}{Cartagena}{Colombia}{}{}
+% 2007
+\cventry{2007-2008}{Net Art en Colombia}{Luis Angel Arango Library}{Bogot\'{a}}{Colombia}{http://www.artenlared.org/}
+\cventry{2007}{Conflux Festival}{The change you want to see}{Brooklin}{USA}{http://www.confluxfestival.org/conflux2007/author/alejandro-duque/} 
+\cventry{2007}{Transmisiones}{XII Salones regionales de Artistas}{Bogot\'{a}/Boyaca}{http://transmisiones.org}{Colombia} 
+% 2006
+\cventry{2006}{Artecamara}{ARTBO: Bogot\'{a} International Art Fair}{Bogot\'{a}}{Colombia}{} 
+% 2005
+\cventry{2005}{...del otro mundo}{Universidad Nacional Museum of Art}{Bogot\'{a}}{Colombia}{} 
+% 2004
+\cventry{2004}{La  Ca\'{i}da: Cuerpo pol\'{i}tico, cuerpo po\'{e}tico}{Dare - Dare}{Center for Multimedia Art}{Montreal}{Canad\'{a}} 
+\cventry{2004}{Despu\'{e}s de la pintura}{ Bogot\'{a} Superior Academy of Arts}{Bogot\'{a}}{Colombia}{} 
+% 2003
+\cventry{2003}{Still Life}{Casa Republicana}{Museo del Banco de la Republica}{Bogot\'{a}}{Colombia}
+% 2002
+\cventry{2002}{XI Sal\'{o}n Nacional de Artistas J\'{o}venes}{Galer\'{i}a Santafe}{Bogot\'{a}}{Colombia}{}
+\cventry{2002}{VII Bienal de Arte de Bogot\'{a}}{El Tintal library}{BIBLIORED}{Bogot\'{a}}{Colombia}
+\cventry{2002}{Ciudad Kennedy: Memoria y Realidad}{ASOJUNTAS Kennedy}{Bogot\'{a}}{Colombia}{}
+\cventry{2002}{XXIX Sal\'{o}n Francisco Antonio Cano}{Museum of Art}{Universidad Nacional de Colombia}{Bogot\'{a}}{Colombia} 
+\cventry{2002}{La Valisse Colombenne}{Galerie de L'Esa}{Lorient}{Francia}{} 
+% 2001
+\cventry{2001}{XXVIII Sal\'{o}n Francisco Antonio Cano}{Museum of Art}{Universidad Nacional de Colombia}{Bogot\'{a}}{Colombia} 
+% 2000
+\cventry{2000}{XXVII Sal\'{o}n Francisco Antonio Cano}{Museum of Art}{Universidad Nacional de Colombia}{Bogot\'{a}}{Colombia} 
+
+%%%Premios
+\section{Premios}
+\cventry{2009}{Menci\'{o}n Honoraria}{Bienal ASAB, altas, medias y bajas tecnolog\'{i}as}{Escuela Superior de Artes de Bogot\'{a}}{Bogot\'{a}}{Colombia}{} 
+\cventry{2002}{Primer Premio}{XI Sal\'{o}n Nacional de Artistas J\'{o}venes}{Galer\'{i}a Santafe}{Bogot\'{a}}{Colombia}{} 
+\cventry{2002}{Menci\'{o}n Honoraria}{Proyecto de Tesis: Cosa Hallada no es Hurtada}{Escuela de Artes Pl\'{a}sticas}{Universidad Nacional de Colombia}{Bogot\'{a}}{Colombia}
+\cventry{2002}{Menci\'{o}n de Honor}{XXIX Sal\'{o}n Francisco Antonio Cano}{Museum of Art}{Universidad Nacional de Colombia}{Bogot\'{a}}{Colombia}  
+
+%%%Residencies
+\section{Becas y Residencias}
+\cventry{2010}{Interactivos?BH 2010}{Marginalialab}{Belo Horizonte}{Brazil}{}
+\cventry{2010}{Programa Internacional de Residencias}{JA.CA – Jardim Canada Centro de Arte y Tecnolog\'{i}a}{Belo Horizonte}{Brasil}{}
+\cventry{2007}{MDE 07 Programa de Residencias}{Medelli\'{i}n}{Colombia}{}{}
+\cventry{2003}{Artista en Residencia La chute: cuerpo po\'{e}tico, cuerpo poli\'{i}tico}{Montreal}{M}{Canad\'{a}}{}{}
+
+
+%%%Proyectos
+\section{Proyectos}
+\cventry{2007--actualidad}{NerdBots -- martinez-zea}{http://martinez-zea.info}{Colaboraci\'{o}n con with Gabriel Zea}{}{}
+\cventry{2007--2010}{BereBere}{http://berebere.info/}{Proyecto de Psicogeografia y Visualizaci\'{o}n}{}{}
+\cventry{2007--2009}{Sutatenza educativa}{Red Inal\'{a}mbrica Abierta, Boyac\'{a}, colaboracion con Alejando Araque para la Universidad Pedag\'{o}gica Nacional}{}{}{}
+\cventry{2006--2009}{SLOW}{http://slow.tk}{Compilacion de Software Libre para OSX y Windows}{}{}
+\cventry{1999--2005}{Imagen Pirata}{Colectivo de Artistas}{}{}{}
+
+
+\section{Presentaciones en Vivo}
+\cventry{2008}{Karaoke: Experimentos en Improvizaci\'{o}n}{Matik-Matik}{Bogot\'{a}}{Colombia}{}
+\cventry{2008}{DataJam, Proyecto BereBere}{Centro Colombo - Americano}{Medell\'{i}n}{Colombia}{}
+
+%%%Docencia
+\section{Docencia}
+\cventry{2005 - 2009}{Innovaci\'{o}n}{Pontificia Universidad Javeriana}{Arquitectura y Dise\~{n}o}{Bogot\'{a}}{}
+\cventry{2006 - 2008}{Introducci\'{o}n a los Nuevos Medios}{Universidad de los Andes}{Facultad de Artes}{Bogot\'{a}}{}
+\cventry{2006}{Grabado}{Universidad Jorge Tadeo Lozano}{Facultad de Bellas Artes}{Bogot\'{a}}{}
+\cventry{2006}{Dise\'{n}o Asistido por Computador}{Instituto Coruniversitec}{Design Program}{Bogot\'{a}}{}
+
+%%% Talleres
+\section{Talleres}
+\cventry{2013}{Networked Objects}{Foam City}{http://foamcity.org/2012/12/20/networked-objects-workshop/}{Lafayette}{USA}
+\cventry{2012}{Cosas que env\'{i}an y reciben mensajes}{Plataforma Bogot\'{a}}{Bogot\'{a}}{Colombia}{}
+\cventry{2012}{Agregaci\'{o}n Urbana}{Festival Bogotrax 2012}{Bogot\'{a}}{Colombia}{}
+\cventry{2011}{Agregaci\'{o}n Urbana}{Mostra de Design}{Belo Horizonte}{Brasil}{}
+\cventry{2008}{Mapeo Subjetvo}{Festival Internacional de la Imagen}{Manizales}{}{}
+\cventry{2008}{WebRadio y Linux en vivo}{Bogotrax Festival}{}{Bogot\'{a}}{}
+\cventry{2007}{Sutatenza Inal\'{a}mbrica: Taller de antenas WiFi}{Sal\'{o}n Regional de artistas zona centro}{http://transmisiones.org/html/talleres.htm}{Sutatenza}{}
+
+
+%%%Conferencias
+\section{Conferencias - Seminarios}
+\cventry{2013}{Artist Talk}{Purdue University}{Lafayette}{USA}{}
+\cventry{2012}{Open Labs}{ISEA 2012}{Albuquerque}{USA}{}
+\cventry{2012} {Comunlab2} {Gestion Cultural} {Cali} {Colombia}{}
+\cventry{2012}{ISEA2012: Machine Wilderness} {Plataforma Bogot\'{a}} {Bogot\'{a}} {Colombia}{}
+\cventry{2012}{OpenLabs}{Latin American Forum, ISEA 2012: Machine Wilderness}{Nuevo M\'{e}xico}{USA}{}
+\cventry{2011}{Infra || super << structures}{Seminario Internacional en Dise\~{n}o y Pol\'{i}tica}{Belo Horizonte}{Brasil}{}
+\cventry{2010}{Proyecto BereBere}{Festival Arte.Mov}{Belo Horizonte}{Brasil}{}
+\cventry{2010}{Est\'{e}tica Digital}{Maestr\'{i}a en Creaci\'{o}n Digital}{Universidad de Caldas}{Manizales}{Colombia}
+\cventry{2008}{Est\'{e}tica Digital}{Maestr\'{i}a en Creaci\'{o}n Digital}{Universidad de Caldas}{Manizales}{Colombia}
+\cventry{2008}{Ghostbusters}{Festival Internacional de Cine de Cartagena}{Cartagena}{Colombia}{}
+\cventry{2008}{Radio and Community}{Universidad Nacional de Colombia}{Art School}{Bogot\'{a}}{}
+\cventry{2007}{on BereBere project}{Festival Internacional de Arte MDE 07}{casa del encuentro}{Medell\'{i}n}{Colombia}
+\cventry{2004}{Plagio como proceso creativo}{Seminario de Pintura}{Escuela de Artes Pl\'{a}sticas y Visuales}{Universidad Nacional de Colombia}{Bogot\'{a}}{}
+\cventry{2004}{Reciclamos sus ideas}{Museo de Arte Moderno de Bogot\'{a}}{Bogot\'{a}}{Colombia}{}{}
+\cventry{2002}{Plagio como proceso creativo}{Seminario de Pintura}{Escuela de Artes Pl\'{a}sticas y Visuales}{Universidad Nacional de Colombia}{Bogot\'{a}}{}
+
+
+%%%Publicaciones
+\section{Publications}
+\cventry{2009}{Programas Antiprogramas: Arte Tecnolog\'{i}a y Software Libre}{Po\'{e}ticas y Cr\'{i}ticas del Devenir}{Iliana Hern\'{a}ndez (Ed)}{Pont\'{i}fica Universidad Javeriana}{}
+\cventry{2006}{Cocha WiFi}{Projecto Dise\~{n}o No 46: Dise\'{n}o para todos}{Bogot\'{a}}{}{}
+\cventry{2004}{Roho Miho: Compilaci\'{o}n de Artistas Colombianos}{Colectivo Joystick}{http://jstk.org}{}{}
+\cventry{2003}{Memorias del Proyecto Ciudad Kennedy: Memoria y Realidad}{Escuela de Artes Visuales}{Universidad Nacional de Colombia}{Bogot\'{a}}{}
+
+
+\end{document}
+
